@@ -1,6 +1,17 @@
+html{
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 body{
     background-color: #000000;
     overflow: hidden;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 main::after{
